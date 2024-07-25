@@ -150,7 +150,7 @@ const GenerateThumbnail = ({
             />
           ) : (
             <div className="text-16 flex-center font-medium text-white-1">
-              Generating
+              Uploading
               <Loader size={20} className="animate-spin ml-2" />
             </div>
           )}
