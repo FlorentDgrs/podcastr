@@ -12,7 +12,7 @@ const PodcastCard = ({
   const router = useRouter();
   const handleViews = () => {
     // increase views
-    router.push(`/podcast/${podcastId}`, {
+    router.push(`/podcasts/${podcastId}`, {
       scroll: true,
     });
   };
